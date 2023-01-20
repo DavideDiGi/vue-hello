@@ -14,19 +14,23 @@
 
 <body>
 
-    <!-- 2° step: mi creo il contenitore che ospiterà la mia istanza di Vue (ID app) -->
     <div id="app">
-        <!-- OPZIONALE: verifico se la mia istanza di Vue sta funzionando stampando in pagina una proprietà qualsiasi -->
+
         <div class="container">
+
             <div class="content">
+
                 <h1> {{ print.message }}</h1>
                 <img :src="print.image" :alt="print.place">
+
             </div>
+
         </div>
+
     </div>
 
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> <!-- 1° step: aggiungo la CDN di Vue che trovo nella documentazione ufficiale -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> <!-- importazione Vue -->
     <script src="js/script.js"></script> <!-- importazione JS -->
 </body>
 </html>
