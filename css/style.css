@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .content{
+    width: 100%;
+    text-align: center;
+    color:rgb(67, 149, 183);
+}
+.container .content h1{
+    padding-bottom: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
